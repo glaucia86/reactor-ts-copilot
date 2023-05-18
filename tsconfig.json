@@ -5,16 +5,16 @@
     "files": true
   },
   "compilerOptions": {
-    "target": "ES2020",                                  
-    "module": "CommonJS",   
-    "rootDir": "./src",                            
-    "esModuleInterop": true, 
-    "checkJs": true,     
+    "target": "ES2020",
+    "module": "CommonJS",
+    "rootDir": "./src",
+    "moduleResolution": "node",
+    "checkJs": true,
     "outDir": "./dist",
-    "moduleResolution": "node",                       
-    "forceConsistentCasingInFileNames": true,  
-    "noImplicitAny": true,          
-    "strict": true,                                      
-    "skipLibCheck": true                                 
-  }                               
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true
+  }
 }
